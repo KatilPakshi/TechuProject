@@ -1,1 +1,13 @@
+<!DOCTYPE html>
+<title>My Example</title>
+<style>
+	.box {
+		background-color: gold;
+		font-size: 5vw;
+		padding: 10vw;
+		margin: 5vw;
+		border: solid;
+	}
+</style>
 
+<div class="box">Price is what you pay. Value is what you get.</div>
