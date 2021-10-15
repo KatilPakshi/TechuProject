@@ -1,3 +1,4 @@
+<script>
 // Javascript program for linear search
 
 function search(arr, search_Element)
@@ -53,3 +54,4 @@ search(arr, search_element);
 
 // This code is contributed by code_hunt
 
+</script>
