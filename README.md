@@ -1,7 +1,6 @@
 # New-Project
-This Is A New Project
-OK
-HMM
+Elements in this beautiful techu project include, but are not limited to: images, screenshots, GIFs, lyrics, assignments, and other interesting stuff \^o^/.
+
 .
 .
 .
