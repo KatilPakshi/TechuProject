@@ -1,0 +1,1950 @@
+Software
+Engineering
+Dr. Novarun Deb
+Jens Martensson
+Introduction
+What? Why? How?
+2
+Jens Martensson
+Topics to be covered
+Chapter 1: Software Engineering (Ian Sommerville)
+• Professional software development
+• What is meant by software engineering.
+• Software engineering ethics
+• A brief introduction to ethical issues that affect software engineering.
+• Case studies
+• An introduction to three examples that are used in later chapters in the book.
+3
+Jens Martensson
+Software engineering
+Motivation
+• The economies of ALL developed nations are dependent on software.
+• More and more systems are software controlled
+• Software engineering is concerned with theories, methods and tools for
+professional software development.
+• Expenditure on software represents a significant fraction of GNP in all
+developed countries.
+4
+Jens Martensson
+Software Costs
+Motivation
+• Software costs often dominate computer system costs. The costs of
+software on a PC are often greater than the hardware cost.
+• Software costs more to maintain than it does to develop. For systems with
+a long life, maintenance costs may be several times development costs.
+• Software engineering is concerned with cost-effective software
+development.
+5
+Jens Martensson
+Software Project Failure
+Motivation
+• Increasing system complexity
+• As new software engineering techniques help us to build larger, more complex
+systems, the demands change.
+• Systems have to be built and delivered more quickly.
+• Larger, even more complex systems are required.
+• Systems have to have new capabilities that were previously thought to be
+impossible.
+• Failure to use software engineering methods
+• It is fairly easy to write computer programs without using software engineering
+methods and techniques.
+• Many companies have drifted into software development as their products and
+services have evolved.
+• They do not use software engineering methods in their everyday work.
+• Consequently, their software is often more expensive and less reliable than it
+should be.
+6
+Jens Martensson
+Software Project Failure
+7
+Jens Martensson
+Professional
+Software
+Development
+FAQs
+8
+Jens Martensson
+FAQs about SE
+Question 1
+ What is software?
+Answer
+Computer programs and associated
+documentation. Software products
+may be developed for a particular
+customer or may be developed for a
+general market.
+9
+Jens Martensson
+FAQs about SE
+Question 2
+ What are the
+attributes of good
+software?
+Answer
+ Good software should deliver the
+required functionality and
+performance to the user and should
+be maintainable, dependable and
+usable.
+10
+Jens Martensson
+FAQs about SE
+Question 3
+ What is software
+engineering?
+Answer
+ Software engineering is an
+engineering discipline that is
+concerned with all aspects of
+software production.
+11
+Jens Martensson
+FAQs about SE
+Question 4
+ What are the
+fundamental
+software
+engineering
+activities?
+Answer
+ Software specification, software
+development, software validation and
+software evolution
+12
+Jens Martensson
+FAQs about SE
+Question 5
+ What is the
+difference
+between software
+engineering and
+computer science?
+Answer
+ Computer science focuses on theory
+and fundamentals; software
+engineering is concerned with the
+practicalities of developing and
+delivering useful software.
+13
+Jens Martensson
+FAQs about SE
+Question 6
+ What is the
+difference
+between software
+engineering and
+system
+engineering?
+Answer
+ System engineering is concerned with
+all aspects of computer-based
+systems development including
+hardware, software and process
+engineering. Software engineering is
+part of this more general process.
+14
+Jens Martensson
+FAQs about SE
+Question 7
+ What are the key
+challenges facing
+software
+engineering?
+Answer
+ Coping with increasing diversity,
+demands for reduced delivery times
+and developing trustworthy software.
+15
+Jens Martensson
+FAQs about SE
+Question 8
+ What are the
+costs of software
+engineering?
+Answer
+ Roughly 60% of software costs are
+development costs, 40% are testing
+costs. For custom software, evolution
+costs often exceed development costs.
+16
+Jens Martensson
+FAQs about SE
+Question 9
+ What are the best
+software
+engineering
+techniques and
+methods?
+Answer
+ While all software projects have to
+be professionally managed and
+developed, different techniques are
+appropriate for different types of
+system.
+17
+Jens Martensson
+FAQs about SE
+Question 10
+ What differences
+has the web made
+to software
+engineering?
+Answer
+ The web has led to the availability of
+software services and the possibility
+of developing highly distributed
+service-based systems. Web-based
+systems development has led to
+important advances in programming
+languages and software reuse.
+18
+Jens Martensson
+Software Products
+Types of Software
+• Generic products
+• Stand-alone systems that are marketed and sold to any customer who
+wishes to buy them.
+• The specification of what the software should do is owned by the
+software developer and decisions on software change are made by the
+developer.
+• Examples – PC software such as graphics programs, project
+management tools; CAD software; software for specific markets such as
+appointments systems for dentists.
+• Customized products
+• Software that is commissioned by a specific customer to meet their own
+needs.
+• The specification of what the software should do is owned by the
+customer for the software and they make decisions on software changes
+that are required.
+• Examples – embedded control systems, air traffic control software,
+traffic monitoring systems.
+19
+Jens Martensson
+Essential attributes of good software
+20
+Product characteristic Description
+Maintainability Software should be written in such a way so that it can evolve to meet the changing
+needs of customers. This is a critical attribute because software change is an
+inevitable requirement of a changing business environment.
+Dependability and security Software dependability includes a range of characteristics including reliability,
+security and safety. Dependable software should not cause physical or economic
+damage in the event of system failure. Malicious users should not be able to access
+or damage the system.
+Efficiency Software should not make wasteful use of system resources such as memory and
+processor cycles. Efficiency therefore includes responsiveness, processing time,
+memory utilisation, etc.
+Acceptability Software must be acceptable to the type of users for which it is designed. This
+means that it must be understandable, usable and compatible with other systems
+that they use.
+Jens Martensson
+Software
+Engineering
+21
+Jens Martensson
+Software Engineering
+What is it?
+• Software engineering is an engineering discipline that is concerned
+with all aspects of software production from the early stages of
+system specification through to maintaining the system after it has
+gone into use.
+• Engineering discipline
+• Using appropriate theories and methods to solve problems bearing in
+mind organizational and financial constraints.
+• All aspects of software production
+• Not just technical process of development. Also project management and
+the development of tools, methods etc. to support software production.
+22
+Jens Martensson
+Importance of Software Engineering
+Why is it required?
+• More and more, individuals and society rely on advanced
+software systems.
+• We need to be able to produce reliable and trustworthy
+systems economically and quickly.
+• It is usually cheaper, in the long run, to use software
+engineering methods and techniques for software systems.
+• Do not write the programs as if it was a personal
+programming project.
+• For most types of system, the majority of costs are the costs of
+changing the software after it has gone into use.
+23
+Jens Martensson
+Software Process Activities
+How is it done?
+• Software specification, where customers and engineers define the
+software that is to be produced and the constraints on its operation.
+• Software development, where the software is designed and
+programmed.
+• Software validation, where the software is checked to ensure that it
+is what the customer requires.
+• Software evolution, where the software is modified to reflect
+changing customer and market requirements.
+24
+Jens Martensson
+Software
+Engineering
+Ethics
+25
+Jens Martensson
+Software Engineering Ethics
+• Software engineering involves wider responsibilities than simply the
+application of technical skills.
+• Software engineers must behave in an honest and ethically
+responsible way if they are to be respected as professionals.
+• Ethical behaviour is more than simply upholding the law but involves
+following a set of principles that are morally correct.
+26
+Jens Martensson
+Issues of Professional Responsibility
+• Confidentiality
+• Competence
+• Intellectual Property Rights
+• Computer Misuse
+• ACM/IEEE have cooperated to produce a code of ethical
+practice.
+• Members of these organisations sign up to the code of
+practice when they join.
+• The Code contains eight Principles related to the behaviour of
+and decisions made by professional software engineers.
+27
+Jens Martensson
+ACM / IEEE Ethical Principles
+1. PUBLIC - Software engineers shall act consistently with the public interest.
+2. CLIENT AND EMPLOYER - Software engineers shall act in a manner that is in the best interests of their client and
+employer consistent with the public interest.
+3. PRODUCT - Software engineers shall ensure that their products and related modifications meet the highest professional
+standards possible.
+4. JUDGMENT - Software engineers shall maintain integrity and independence in their professional judgment.
+5. MANAGEMENT - Software engineering managers and leaders shall subscribe to and promote an ethical approach to
+the management of software development and maintenance.
+6. PROFESSION - Software engineers shall advance the integrity and reputation of the profession consistent with the
+public interest.
+7. COLLEAGUES - Software engineers shall be fair to and supportive of their colleagues.
+8. SELF - Software engineers shall participate in lifelong learning regarding the practice of their profession and shall
+promote an ethical approach to the practice of the profession.
+28
+Jens Martensson
+Case Studies
+29
+Jens Martensson
+Case Studies
+• Insulin Pump Control System
+• Mentcare: An Information System for Mental Healthcare
+• Wilderness Weather Station
+• iLearn: a Digital Learning Environment
+30
+Jens Martensson 31
+Software
+Engineering
+Dr. Novarun Deb
+Jens Martensson
+Software
+Processes
+How Software is built…
+2
+Jens Martensson
+Topics to be covered
+Chapter 2: Software Processes (Ian Sommerville)
+• Software process models
+• Process activities
+• Coping with change
+• Process improvement
+3
+Jens Martensson
+The Software Process
+Overview
+• A structured set of activities required to develop a
+software system.
+• Many different software processes but all involve:
+• Specification – defining what the system should do;
+• Design and implementation – defining the organization of the system and
+implementing the system;
+• Validation – checking that it does what the customer wants;
+• Evolution – changing the system in response to changing customer needs.
+• A software process model is an abstract representation of a process. It
+presents a description of a process from some particular perspective.
+4
+Jens Martensson
+Plan-driven and Agile processes
+Broad Classification
+• Plan-driven processes are processes where all of the process
+activities are planned in advance and progress is measured
+against this plan.
+• In agile processes, planning is incremental and it is easier to
+change the process to reflect changing customer
+requirements.
+• In practice, most practical processes include elements of both
+plan-driven and agile approaches.
+• There are no right or wrong software processes.
+5
+Jens Martensson
+Software
+Process Models
+6
+Jens Martensson
+Software Process Models
+• The Waterfall Model
+• Plan-driven model. Separate and distinct phases of specification and
+development.
+• Incremental Development
+• Specification, development and validation are interleaved. May be plan-driven
+or agile.
+• Integration and Configuration
+• The system is assembled from existing configurable components. May be plandriven or agile.
+• In practice, most large systems are developed using a process that
+incorporates elements from all of these models.
+7
+Jens Martensson
+Waterfall Model
+Problems
+• The main drawback of the waterfall model is the difficulty of
+accommodating change after the process is underway.
+• In principle, a phase has to be complete before moving onto the
+next phase.
+• Inflexible partitioning of the project into distinct stages makes
+it difficult to respond to changing customer requirements.
+• Therefore, this model is only appropriate when the requirements
+are well-understood and changes will be fairly limited during the
+design process.
+• Few business systems have stable requirements.
+• The waterfall model is mostly used for large systems
+engineering projects where a system is developed at several
+sites.
+8
+Jens Martensson
+Incremental Model
+Benefits
+• The cost of accommodating changing customer requirements is
+reduced.
+• The amount of analysis and documentation that has to be redone is
+much less than is required with the waterfall model.
+• It is easier to get customer feedback on the development work
+that has been done.
+• Customers can comment on demonstrations of the software and see
+how much has been implemented.
+• More rapid delivery and deployment of useful software to the
+customer is possible.
+• Customers are able to use and gain value from the software earlier
+than is possible with a waterfall process.
+9
+Jens Martensson
+Incremental Model
+Problems
+• The process is not visible.
+• Managers need regular deliverables to measure progress.
+• If systems are developed quickly, it is not cost-effective to
+produce documents that reflect every version of the system.
+• System structure tends to degrade as new increments are
+added.
+• Unless time and money is spent on refactoring to improve the
+software, regular change tends to corrupt its structure.
+• Incorporating further software changes becomes increasingly
+difficult and costly.
+10
+Jens Martensson
+Integration and Configuration
+• Based on software reuse where systems are integrated from existing components or application systems
+• Sometimes called COTS -Commercial-off-the-shelf systems.
+• Reused elements may be configured to adapt their behaviour and functionality to a user’s requirements
+11
+Jens Martensson
+Reusable Software
+Advantages and Disadvantages
+• Reduced costs and risks as less software is
+developed from scratch
+• Faster delivery and deployment of system
+• But requirements compromises are inevitable so
+system may not meet real needs of users
+• Loss of control over evolution of reused system
+elements
+12
+Jens Martensson
+Process Activities
+13
+Jens Martensson
+Process Activities
+Overview
+• Real software processes are inter-leaved sequences of technical,
+collaborative and managerial activities.
+• Overall goal of specifying, designing, implementing and testing a
+software system.
+• The four basic process activities of specification, development,
+validation and evolution are organized differently in different
+development processes.
+• For example, in the waterfall model, they are organized in sequence,
+whereas in incremental development they are interleaved.
+14
+Jens Martensson
+Software Specification
+Overview
+• The process of establishing what services are required and the
+constraints on the system’s operation and development.
+• Requirements engineering process
+• Requirements elicitation and analysis
+• What do the system stakeholders require or expect from the system?
+• Requirements specification
+• Defining the requirements in detail
+• Requirements validation
+• Checking the validity of the requirements
+15
+Jens Martensson
+Software Design
+Overview
+• Design a software structure that realises the specification.
+• Design Activities
+• Architectural design
+• Database design
+• Interface design
+• Component selection and design
+16
+Jens Martensson
+Software Implementation
+Overview
+• Implementation translates the software structure into an
+executable program.
+• The software is implemented either by developing a program
+or programs or by configuring an application system.
+• Design and implementation are interleaved activities for most
+types of software system.
+• Debugging is the activity of finding program faults and
+correcting these faults.
+17
+Jens Martensson
+Software Validation
+Overview
+• Verification and Validation (V & V) is intended to show
+that
+• a system conforms to its specification
+• meets the requirements of the system customer
+• Involves checking and review processes and system
+testing.
+• System testing involves executing the system with test
+cases that are derived from the specification of the
+real data to be processed by the system.
+• Testing is the most commonly used V & V activity.
+18
+Jens Martensson
+Software Evolution
+Overview
+• Software is inherently flexible and can change.
+• As requirements change through changing business
+circumstances, the software that supports the business must
+also evolve and change.
+• Although there has been a demarcation between
+development and evolution (maintenance) this is increasingly
+irrelevant as fewer and fewer systems are completely new.
+19
+Jens Martensson
+Change
+Management
+20
+Jens Martensson
+Coping with change
+• Change is inevitable in all large software projects.
+• Business changes lead to new and changed system
+requirements
+• New technologies open up new possibilities for
+improving implementations
+• Changing platforms require application changes
+• Change leads to rework so the costs of change
+include
+• rework (e.g. re-analysing requirements)
+• implementing new functionality
+21
+Jens Martensson
+Reducing the costs of rework
+• Change anticipation, where the software process includes
+activities that can anticipate possible changes before
+significant rework is required.
+• System prototyping, where a version of the system or part
+of the system is developed quickly.
+• Check the customer’s requirements.
+• Feasibility of design decisions.
+• Change tolerance, where the process is designed so that
+changes can be accommodated at relatively low cost.
+• Incremental delivery, where system increments are delivered
+to the customer for comment and experimentation.
+22
+Jens Martensson
+Software Prototyping
+• A prototype is an initial version of a system used to
+demonstrate concepts and try out design options.
+• A prototype can be used in:
+• The requirements engineering process to help with requirements
+elicitation and validation.
+• In design processes to explore options and develop a UI design.
+• In the testing process to run back-to-back tests.
+• Benefits of prototyping
+• Improved system usability.
+• A closer match to users’ real needs.
+• Improved design quality.
+• Improved maintainability.
+• Reduced development effort.
+23
+Jens Martensson
+Software Prototyping
+• May be based on rapid prototyping languages or tools.
+• May involve leaving out functionality
+• Prototype should focus on areas of the product that are not wellunderstood.
+• Error checking and recovery may not be included in the prototype.
+• Focus on FRs rather than NFRs.
+• Prototypes should be discarded after development as they
+are not a good basis for a production system:
+• May be impossible to tune the system to meet NFRs.
+• Prototypes are normally undocumented.
+• Usually degraded architecture through rapid change.
+• Non-compliance to normal organizational quality standards.
+24
+Jens Martensson
+Incremental Development and Delivery
+• Development and delivery is broken down into increments.
+• Each increment delivering part of the required functionality.
+• User requirements are prioritised and the highest priority
+requirements are included in early increments.
+• Incremental development
+• Develop the system in increments and evaluate each increment
+before proceeding to the development of the next increment.
+• Normal approach used in agile methods.
+• Evaluation done by user/customer proxy.
+• Incremental delivery
+• Deploy an increment for use by end-users.
+• More realistic evaluation about practical use of software.
+• Difficult to implement for replacement systems as increments have
+less functionality than the system being replaced.
+25
+Jens Martensson
+Incremental Development and Delivery
+• Advantages
+• Customer value can be delivered with each increment so system
+functionality is available earlier.
+• Early increments act as a prototype to help elicit requirements for
+later increments.
+• Lower risk of overall project failure.
+• The highest priority system services tend to receive the most
+testing.
+• Most systems require a set of basic facilities that are used by
+different parts of the system.
+• As requirements are not defined in detail until an increment is to
+be implemented, it can be hard to identify common facilities that
+are needed by all increments.
+• The essence of iterative processes is that the specification is
+developed in conjunction with the software.
+• However, this conflicts with the procurement model of many
+organizations, where the complete system specification is part of
+the system development contract.
+26
+Jens Martensson 27
+Software
+Engineering
+Dr. Novarun Deb
+Jens Martensson
+Requirements
+Engineering
+2
+Jens Martensson
+Topics to be covered
+Chapter 4: Software Engineering (Ian Sommerville)
+• Functional and Non-Functional requirements
+• Requirements Engineering Processes
+• Requirements Elicitation
+• Requirements Specification
+• Requirements Validation
+• Requirements Evolution
+3
+Jens Martensson
+Requirements Engineering
+Motivation
+• The process of establishing the services that a customer requires
+from a system and the constraints under which it operates and is
+developed.
+• A requirement may range from a high-level abstract statement of a
+service or of a system constraint to a detailed mathematical
+functional specification.
+• Requirements may serve a dual function
+• May be the basis for a bid for a contract - therefore must be open to
+interpretation.
+• May be the basis for the contract itself - therefore must be defined in
+detail.
+• Both these statements may be called requirements.
+4
+Jens Martensson
+Types of Requirement
+Motivation
+• User requirements
+• Statements in natural language plus diagrams of the services the system
+provides and its operational constraints.
+• Written for customers.
+• System requirements
+• A structured document setting out detailed descriptions of the system’s
+functions, services and operational constraints.
+• Defines what should be implemented so may be part of a contract
+between client and contractor.
+5
+Jens Martensson
+System Stakeholders
+Motivation
+• Any person or organization who is affected by
+the system in some way and so who has a
+legitimate interest
+• Stakeholder types
+• End users
+• System managers
+• System owners
+• External stakeholders
+• Agile Methods and Requirements
+• Producing detailed requirements is a waste of time.
+• Use incremental requirements engineering
+• Problematic for systems that require pre-delivery
+analysis or developed by several teams.
+6
+Jens Martensson
+Functional and
+Non-Functional
+Requirements
+7
+Jens Martensson
+Functional Requirements
+• Describe functionality or system services.
+• Depend on the type of software,
+expected users and the type of system
+where the software is used.
+• Functional user requirements may be
+high-level statements of what the system
+should do.
+• Functional system requirements should
+describe the system services in detail.
+Mentcare system: functional requirements
+• A user shall be able to search the appointments lists for all clinics.
+• The system shall generate each day, for each clinic, a list of
+patients who are expected to attend appointments that day.
+• Each staff member using the system shall be uniquely identified by
+his or her 8-digit employee number.
+8
+Jens Martensson
+Imprecise Requirements
+• Problems arise when functional requirements are not precisely
+stated.
+• Ambiguous requirements may be interpreted in different ways
+by developers and users.
+• Consider the term ‘search’ in Requirement 1
+• User intention – search for a patient name across all appointments
+in all clinics;
+• Developer interpretation – search for a patient name in an
+individual clinic. User chooses clinic then search.
+9
+Jens Martensson
+Requirements Completeness and Consistency
+• In principle, requirements should be both complete and
+consistent.
+• Complete
+• They should include descriptions of all facilities required.
+• Consistent
+• There should be no conflicts or contradictions in the descriptions of
+the system facilities.
+• In practice, because of system and environmental complexity, it
+is impossible to produce a complete and consistent
+requirements document.
+10
+Jens Martensson
+Non-Functional Requirements
+• These define system properties and constraints e.g.
+reliability, response time and storage requirements.
+Constraints are I/O device capability, system
+representations, etc.
+• Process requirements may also be specified
+mandating a particular IDE, programming language
+or development method.
+• Non-functional requirements may be more critical
+than functional requirements. If these are not met, the
+system may be useless.
+• Non-functional requirements may affect the overall
+architecture of a system rather than the individual
+components.
+• For example, to ensure that performance requirements are
+met, you may have to organize the system to minimize
+communications between components.
+• A single non-functional requirement, such as a security
+requirement, may generate a number of related
+functional requirements that define system services that
+are required.
+• It may also generate requirements that restrict existing
+requirements.
+11
+Jens Martensson
+NFR Classifications
+• Product requirements
+• Requirements which specify that the delivered product
+must behave in a particular way e.g. execution speed,
+reliability, etc.
+• Organisational requirements
+• Requirements which are a consequence of organisational
+policies and procedures e.g. process standards used,
+implementation requirements, etc.
+• External requirements
+• Requirements which arise from factors which are external
+to the system and its development process e.g.
+interoperability requirements, legislative requirements,
+etc.
+• Product requirement
+• The Mentcare system shall be available to all clinics
+during normal working hours (Mon–Fri, 0830–17.30).
+Downtime within normal working hours shall not exceed
+five seconds in any one day.
+• Organizational requirement
+• Users of the Mentcare system shall authenticate
+themselves using their health authority identity card.
+• External requirement
+• The system shall implement patient privacy provisions as
+set out in HStan-03-2006-priv.
+12
+Mentcare system: non - functional requirements
+Jens Martensson
+NFR Classifications
+13
+Jens Martensson
+Goals and NFRs
+• Non-functional requirements may be very difficult to
+state precisely and imprecise requirements may be
+difficult to verify.
+• Goal
+• A general intention of the user such as ease of use.
+• Verifiable non-functional requirement
+• A statement using some measure that can be objectively
+tested.
+• Goals are helpful to developers as they convey the
+intentions of the system users.
+• Goal
+• The system should be easy to use by medical staff and
+should be organized in such a way that user errors are
+minimized.
+• Testable NFR
+• Medical staff shall be able to use all the system functions
+after four hours of training.
+• After this training, the average number of errors made
+by experienced users shall not exceed two per hour of
+system use.
+14
+Mentcare system: non - functional requirements
+Jens Martensson
+NFR Metrics
+15
+Property Measure
+Speed Processed transactions/second
+User/event response time
+Screen refresh time
+Size Mbytes
+Number of ROM chips
+Ease of use Training time
+Number of help frames
+Reliability Mean time to failure
+Probability of unavailability
+Rate of failure occurrence
+Availability
+Robustness Time to restart after failure
+Percentage of events causing failure
+Probability of data corruption on failure
+Portability Percentage of target dependent statements
+Number of target systems
+Jens Martensson
+Requirements
+Engineering
+Process
+16
+Jens Martensson
+Requirements Engineering Processes
+• The processes used for RE vary widely depending on the
+application domain, the people involved and the organisation
+developing the requirements.
+• However, there are a number of generic activities common to
+all processes
+• Requirements elicitation;
+• Requirements analysis;
+• Requirements validation;
+• Requirements management.
+• In practice, RE is an iterative activity in which these processes
+are interleaved.
+17
+Jens Martensson
+Requirements
+Engineering
+Process
+1. Requirements Elicitation and
+Analysis
+18
+Jens Martensson
+Requirements Elicitation Process
+• Sometimes called requirements discovery.
+• Involves technical staff working with customers to find out
+about the application domain, the services that the system
+should provide and the system’s operational constraints.
+• May involve end-users, managers, engineers involved in
+maintenance, domain experts, trade unions, etc. These are
+called stakeholders.
+• Software engineers work with a range of system stakeholders
+to find out about the requirements.
+19
+Jens Martensson
+Problems of Requirements Elicitation
+• Stakeholders don’t know what they really want.
+• Stakeholders express requirements in their own terms.
+• Different stakeholders may have conflicting
+requirements.
+• Organisational and political factors may influence the
+system requirements.
+• The requirements change during the analysis process.
+New stakeholders may emerge and the business
+environment may change.
+20
+Jens Martensson
+Requirements Elicitation Activities
+• Requirements discovery
+• Interacting with stakeholders to discover their requirements.
+Domain requirements are also discovered at this stage.
+• Requirements classification and organisation
+• Groups related requirements and organises them into
+coherent clusters.
+• Prioritisation and negotiation
+• Prioritising requirements and resolving requirements conflicts.
+• Requirements specification
+• Requirements are documented and input into the next round
+of the spiral.
+21
+Jens Martensson
+Requirements Discovery
+• The process of gathering information about the required
+and existing systems and distilling the user and system
+requirements from this information.
+• Interaction is with system stakeholders from managers to
+external regulators.
+• Systems normally have a range of stakeholders.
+22
+Jens Martensson
+Requirements Discovery
+• Interviews are good for getting an overall understanding
+of what stakeholders do and how they might interact with
+the system.
+• Normally a mix of closed and open-ended interviewing.
+• Closed interviews based on pre-determined list of questions
+• Open interviews where various issues are explored with
+stakeholders.
+• Effective interviewing
+• Be open-minded, avoid pre-conceived ideas about the
+requirements and are willing to listen to stakeholders.
+• Prompt the interviewee to get discussions going using a
+springboard question, a requirements proposal, or by working
+together on a prototype system.
+23
+Interviews
+• Application specialists may use language to describe
+their work that isn’t easy for the requirements engineer to
+understand.
+• Interviews are not good for understanding domain
+requirements.
+• Requirements engineers cannot understand specific
+domain terminology.
+• Some domain knowledge is so familiar that people find it
+hard to articulate or think that it isn’t worth articulating.
+In Practice Problems
+Jens Martensson
+Requirements Discovery
+• Requirements that are derived from the way that people
+actually work rather than the way in which process
+definitions suggest that they ought to work.
+• Requirements that are derived from cooperation and
+awareness of other people’s activities.
+• Awareness of what other people are doing leads to changes
+in the ways in which we do things.
+• Ethnography is effective for understanding existing
+processes but cannot identify new features that should be
+added to a system.
+24
+Ethnography
+Jens Martensson
+Requirements Discovery
+• Developed in a project studying the air traffic control
+process
+• Combines ethnography with prototyping
+• Prototype development results in unanswered questions
+which focus on the ethnographic analysis.
+• The problem with ethnography is that it studies existing
+practices which may have some historical basis which is
+no longer relevant.
+25
+Focused Ethnography
+Jens Martensson
+Requirements Discovery
+• Scenarios and user stories are real-life examples of how
+a system can be used.
+• Description of how a system may be used for a task.
+• Because they are based on a practical situation,
+stakeholders can relate to them and can comment on
+their situation with respect to the story.
+• Scenarios are a structured form of user story. They should
+include
+• A description of the starting situation;
+• A description of the normal flow of events;
+• A description of what can go wrong;
+• Information about other concurrent activities;
+• A description of the state when the scenario finishes.
+26
+Stories and Scenarios
+Jens Martensson
+Stories and Scenarios – Case Study: Photo Uploading (iLearn)
+Initial Assumption
+A user or a group of users have one or more digital
+photographs to be uploaded to the picture sharing site.
+These are saved on either a tablet or laptop computer. They
+have successfully logged on to KidsTakePics.
+27
+Jens Martensson
+Stories and Scenarios – Case Study: Photo Uploading (iLearn)
+Normal
+The user chooses upload photos and they are prompted to
+select the photos to be uploaded on their computer and to
+select the project name under which the photos will be
+stored. They should also be given the option of inputting
+keywords that should be associated with each uploaded
+photo. Uploaded photos are named by creating a
+conjunction of the user name with the filename of the photo
+on the local computer.
+On completion of the upload, the system automatically sends
+an email to the project moderator asking them to check new
+content and generates an on-screen message to the user
+that this has been done.
+28
+Jens Martensson
+Stories and Scenarios – Case Study: Photo Uploading (iLearn)
+What can go
+wrong?
+No moderator is associated with the selected project. An
+email is automatically generated to the school administrator
+asking them to nominate a project moderator. Users should
+be informed that there could be a delay in making their
+photos visible.
+Photos with the same name have already been uploaded by
+the same user. The user should be asked if they wish to reupload the photos with the same name, rename the photos
+or cancel the upload. If they chose to re-upload the photos,
+the originals are overwritten. If they chose to rename the
+photos, a new name is automatically generated by adding
+a number to the existing file name.
+29
+Jens Martensson
+Stories and Scenarios – Case Study: Photo Uploading (iLearn)
+Other Activities The moderator may be logged on to the system and may
+approve photos as they are uploaded.
+30
+Jens Martensson
+Stories and Scenarios – Case Study: Photo Uploading (iLearn)
+System State on
+Completion
+User is logged on. The selected photos have been uploaded
+and assigned a status ‘awaiting moderation’. Photos are
+visible to the moderator and to the user who uploaded
+them.
+31
+Jens Martensson
+Requirements
+Engineering
+Process
+2. Requirements Specification
+32
+Jens Martensson
+Requirements Specification
+• The process of writing down the user and system
+requirements in a requirements document.
+• User requirements have to be understandable by endusers and customers who do not have a technical
+background.
+• System requirements are more detailed requirements
+and may include more technical information.
+• The requirements may be part of a contract for the
+system development
+• It is important that these are as complete as possible.
+33
+Jens Martensson
+Requirements Specification
+34
+Ways of Writing
+Notation Description
+Natural language The requirements are written using numbered sentences in natural language.
+Each sentence should express one requirement.
+Structured natural
+language
+The requirements are written in natural language on a standard form or template.
+Each field provides information about an aspect of the requirement.
+Design description
+languages
+This approach uses a language like a programming language, but with more abstract features
+to specify the requirements by defining an operational model of the system.
+This approach is now rarely used although it can be useful for interface specifications.
+Graphical notations Graphical models, supplemented by text annotations, are used to define the functional
+requirements for the system; i*, KAOS and NFR notations are commonly used.
+Mathematical
+specifications
+These notations are based on mathematical concepts such as finite-state machines or sets.
+Although these unambiguous specifications can reduce the ambiguity in a requirements document,
+most customers don’t understand a formal specification. They cannot check that it represents
+what they want and are reluctant to accept it as a system contract.
+Jens Martensson
+Requirements Specification
+• Invent a standard format and use it for all requirements.
+• Use language in a consistent way. Use shall for
+mandatory requirements, should for desirable
+requirements.
+• Use text highlighting to identify key parts of the
+requirement.
+• Avoid the use of computer jargon.
+• Include an explanation (rationale) of why a requirement
+is necessary.
+35
+Natural Language Specification
+• Lack of clarity
+• Precision is difficult without making the document difficult
+to read.
+• Requirements confusion
+• Functional and non-functional requirements tend to be
+mixed-up.
+• Requirements amalgamation
+• Several different requirements may be expressed
+together.
+Guidelines Problems
+Jens Martensson
+Requirements Specification
+36
+Natural Language Specification – Case Study: Insulin Pump SW System
+3.2 The system shall measure the blood sugar and deliver insulin, if required, every 10 minutes.
+(Changes in blood sugar are relatively slow so more frequent measurement is unnecessary; less frequent
+measurement could lead to unnecessarily high sugar levels.)
+3.6 The system shall run a self-test routine every minute with the conditions to be tested and the
+associated actions defined in Table 1. (A self-test routine can discover hardware and software
+problems and alert the user to the fact the normal operation may be impossible.)
+Jens Martensson
+Requirements Specification
+• An approach to writing requirements.
+• The freedom of the requirements writer is limited and
+requirements are written in a standard way.
+• This works well for some types of requirements
+• e.g. requirements for embedded control system but is
+sometimes too rigid for writing business system requirements.
+37
+Structured Specification
+• Definition of the function or entity.
+• Description of inputs and where they come from.
+• Description of outputs and where they go to.
+• Information about the information needed for the
+computation and other entities used.
+• Description of the action to be taken.
+• Pre and post conditions (if appropriate).
+• The side effects (if any) of the function.
+Jens Martensson
+Requirements Specification
+38
+Structured Specification – Case Study: Insulin Pump SW System
+Jens Martensson
+Requirements Specification
+• Used to supplement natural language.
+• Particularly useful when you have to define a
+number of possible alternative courses of action.
+• For example, the insulin pump systems bases its
+computations on the rate of change of blood
+sugar level and the tabular specification explains
+how to calculate the insulin requirement for
+different scenarios.
+39
+Tabular Specification
+Condition Action
+Sugar level falling (r2 < r1) CompDose = 0
+Sugar level stable (r2 = r1) CompDose = 0
+Sugar level increasing and rate of
+increase decreasing ((r2 – r1) < (r1 –
+r0)).
+CompDose = 0
+Sugar level increasing and rate of
+increase stable or increasing
+((r2 – r1) ≥ (r1 – r0))
+CompDose = round ((r2 –
+r1)/4)
+If rounded result = 0 then
+CompDose = MinimumDose
+Case Study: Insulin Pump SW System
+Jens Martensson
+Requirements Specification
+• Use-cases are a kind of scenario that are included
+in the UML.
+• Use cases identify the actors in an interaction and
+which describe the interaction itself.
+• A set of use cases should describe all possible
+interactions with the system.
+• High-level graphical model supplemented by
+more detailed tabular description .
+• UML sequence diagrams may be used to add
+detail to use-cases by showing the sequence of
+event processing in the system.
+40
+Use Cases
+Case Study: Mentcare System
+Jens Martensson
+Requirements Specification
+• The software requirements document is the official
+statement of what is required of the system developers.
+• Should include both a definition of user requirements and
+a specification of the system requirements.
+• It is NOT a design document.
+• As far as possible, it should be a set of WHAT (and WHY)
+the system should do rather than HOW it should do it.
+41
+The Requirements Document
+Jens Martensson
+Requirements Specification
+42
+Structure of the Requirements Document
+Chapter Description
+Preface This should define the expected readership of the document and describe its version history, including a
+rationale for the creation of a new version and a summary of the changes made in each version.
+Introduction This should describe the need for the system. It should briefly describe the system’s functions and explain
+how it will work with other systems. It should also describe how the system fits into the overall business or
+strategic objectives of the organization commissioning the software.
+Glossary This should define the technical terms used in the document. You should not make assumptions about the
+experience or expertise of the reader.
+User requirements
+definition
+Here, you describe the services provided for the user. The nonfunctional system requirements should also
+be described in this section. This description may use natural language, diagrams, or other notations that
+are understandable to customers. Product and process standards that must be followed should be
+specified.
+System
+architecture
+This chapter should present a high-level overview of the anticipated system architecture, showing the
+distribution of functions across system modules. Architectural components that are reused should be
+highlighted.
+Jens Martensson
+Requirements Specification
+43
+Structure of the Requirements Document
+Chapter Description
+System requirements
+specification
+This should describe the functional and nonfunctional requirements in more detail. If necessary, further
+detail may also be added to the nonfunctional requirements. Interfaces to other systems may be
+defined.
+System models This might include graphical system models showing the relationships between the system components
+and the system and its environment. Examples of possible models are object models, data-flow
+models, or semantic data models.
+System evolution This should describe the fundamental assumptions on which the system is based, and any anticipated
+changes due to hardware evolution, changing user needs, and so on. This section is useful for system
+designers as it may help them avoid design decisions that would constrain likely future changes to
+the system.
+Appendices These should provide detailed, specific information that is related to the application being developed;
+for example, hardware and database descriptions. Hardware requirements define the minimal and
+optimal configurations for the system. Database requirements define the logical organization of the
+data used by the system and the relationships between data.
+Index Several indexes to the document may be included. As well as a normal alphabetic index, there may
+be an index of diagrams, an index of functions, and so on.
+Jens Martensson
+Requirements
+Engineering
+Process
+3. Requirements Validation
+44
+Jens Martensson
+Requirements Validation
+• Concerned with demonstrating that the requirements define the system
+that the customer really wants.
+• Requirements error costs are high so validation is very important
+• Fixing a requirements error after delivery may cost up to 100 times the cost of
+fixing an implementation error.
+• Requirements Checking:
+• Validity. Does the system provide the functions which best support the
+customer’s needs?
+• Consistency. Are there any requirements conflicts?
+• Completeness. Are all functions required by the customer included?
+• Realism. Can the requirements be implemented given available budget and
+technology
+• Verifiability. Can the requirements be checked?
+45
+Jens Martensson
+Requirements Validation
+• Requirements Reviews
+• Systematic manual analysis of the requirements.
+• Regular reviews should be held while the requirements
+definition is being formulated.
+• Both client and contractor staff should be involved in reviews.
+• Reviews may be formal (with completed documents) or
+informal.
+• Good communications between developers, customers and users
+can resolve problems at an early stage.
+• Prototyping
+• Using an executable model of the system to check
+requirements. Covered in Chapter 2.
+• Test-case generation
+• Developing tests for requirements to check testability.
+46
+Techniques
+• Verifiability
+• Is the requirement realistically testable?
+• Comprehensibility
+• Is the requirement properly understood?
+• Traceability
+• Is the origin of the requirement clearly stated?
+• Adaptability
+• Can the requirement be changed without a large impact
+on other requirements?
+Review Checks
+Jens Martensson
+Requirements
+Evolution
+47
+Jens Martensson
+Changing Requirements
+• The business and technical environment of the system
+always changes after installation.
+• New hardware may be introduced, it may be necessary to
+interface the system with other systems, business priorities
+may change, etc.
+• The people who pay for a system and the users of that
+system are rarely the same people.
+• System customer requirements may conflict with end-user
+requirements.
+• Large systems usually have a diverse user community,
+with many users having different requirements and
+priorities that may be conflicting or contradictory.
+48
+Jens Martensson
+Requirements Management
+• Requirements management is the process of managing
+changing requirements during the requirements
+engineering process and system development.
+• New requirements emerge as a system is being
+developed and after it has gone into use.
+• You need to keep track of individual requirements and
+maintain links between dependent requirements so that
+you can assess the impact of requirements changes.
+• You need to establish a formal process for making
+change proposals and linking these to system
+requirements.
+49
+• Requirements Identification:
+• Each requirement must be uniquely identified so that it can
+be cross-referenced with other requirements.
+• Change Management:
+• This is the set of activities that assess the impact and cost
+of changes.
+• Traceability Policies:
+• These policies define the relationships between each
+requirement and between the requirements and the system
+design that should be recorded.
+• Tool Support:
+• Tools that may be used range from specialised
+requirements management systems to spreadsheets and
+simple database systems.
+Management Planning
+Jens Martensson
+Changing Requirements
+• Deciding if a requirements change should be accepted
+• Problem analysis and change specification
+• During this stage, the problem or the change proposal is analyzed to check that it is valid.
+This analysis is fed back to the change requestor who may respond with a more specific
+requirements change proposal, or decide to withdraw the request.
+• Change analysis and costing
+• The effect of the proposed change is assessed using traceability information and general
+knowledge of the system requirements. Once this analysis is completed, a decision is made
+whether or not to proceed with the requirements change.
+• Change implementation
+• The requirements document and, where necessary, the system design and implementation,
+are modified. Ideally, the document should be organized so that changes can be easily
+implemented.
+50
+Requirements Change Management
+Software
+Engineering
+Dr. Novarun Deb
+Jens Martensson
+System
+Modeling
+2
+Jens Martensson
+Topics to be covered
+Chapter 5: Software Engineering (Ian Sommerville)
+• Context models
+• Interaction models
+• Structural models
+• Behavioral models
+• Model-driven engineering
+3
+Jens Martensson
+System Modeling
+What is it.
+• System modeling is the process of developing abstract
+models of a system.
+• Each model presenting a different view or perspective of
+that system.
+• System modeling has now come to mean representing a
+system using some kind of graphical notation.
+• Based on notations in the Unified Modeling Language
+(UML).
+• System modelling helps the analyst to understand the
+functionality of the system.
+• Models are used to communicate with customers.
+4
+Jens Martensson
+System Modeling
+How do they help us?
+• Models of the existing system are used during RE.
+• Clarify what the existing system does.
+• Can be used as a basis for discussing its strengths and
+weaknesses.
+• These then lead to requirements for the new system.
+• Models of the new system are used during RE.
+• Help explain the proposed requirements to other system
+stakeholders.
+• Engineers use these models to discuss design proposals and
+to document the system for implementation.
+• In a model-driven engineering process, it is possible to
+generate a complete or partial system implementation
+from the system model.
+5
+Jens Martensson
+System Perspectives
+What do they represent?
+• An external perspective, where you model the context or
+environment of the system.
+• An interaction perspective, where you model the interactions
+between a system and its environment, or between the
+components of a system.
+• A structural perspective, where you model the organization
+of a system or the structure of the data that is processed by
+the system.
+• A behavioral perspective, where you model the dynamic
+behavior of the system and how it responds to events.
+6
+Jens Martensson
+Use of Graphical Models
+Motivation
+• As a means of facilitating discussion about an existing or
+proposed system
+• Incomplete and incorrect models are OK as their role is to
+support discussion.
+• As a way of documenting an existing system
+• Models should be an accurate representation of the system but
+need not be complete.
+• As a detailed system description that can be used to
+generate a system implementation
+• Models have to be both correct and complete.
+7
+Jens Martensson
+Context Models
+8
+Jens Martensson
+Context Models
+• Context models are used to illustrate the operational context of
+a system
+• They show what lies outside the system boundaries.
+• Social and organisational concerns may affect the decision on
+where to position system boundaries.
+• System boundaries are established to define what is inside and
+what is outside the system.
+• They show other systems that are used or depend on the system
+being developed.
+• The position of the system boundary has a profound effect on the
+system requirements.
+• There may be pressures to develop system boundaries that increase
+/ decrease the influence or workload of different parts of an
+organization.
+9
+Motivation
+Jens Martensson
+Process Perspective
+• Context models simply show the other systems in
+the environment.
+• Not how the system being developed is used in
+that environment.
+• Process models reveal how the system being
+developed is used in broader business
+processes.
+• UML activity diagrams may be used to define
+business process models.
+10
+Motivation
+Jens Martensson
+Interaction
+Models
+11
+Jens Martensson
+Interaction Models
+• Modeling user interaction is important as it helps to identify
+user requirements.
+• Modeling system-to-system interaction highlights the
+communication problems that may arise.
+• Modeling component interaction helps us understand if a
+proposed system structure is likely to deliver the required
+system performance and dependability.
+• Use case diagrams and Sequence diagrams may be used for
+interaction modelling.
+12
+Motivation
+Jens Martensson
+Use Case Modeling
+• Use cases were developed originally to support requirements
+elicitation and now incorporated into the UML.
+• Each use case represents a discrete task that involves external
+interaction with a system.
+• Actors in a use case may be people or other systems.
+• Represented diagrammatically to provide an overview of the
+use case and in a more detailed textual form.
+13
+MHC-PMS: Transfer data
+Actors Medical receptionist, Patient records system (PRS)
+Description A receptionist may transfer data from the Mentcase
+system to a general patient record database that is
+maintained by a health authority. The information
+transferred may either be updated personal
+information (address, phone number, etc.) or a
+summary of the patient’s diagnosis and treatment.
+Data Patient’s personal information, treatment summary
+Stimulus User command issued by medical receptionist
+Response Confirmation that PRS has been updated
+Comments The receptionist must have appropriate security
+permissions to access the patient information and the
+PRS.
+Jens Martensson
+Sequence Diagrams
+• Sequence diagrams are part of the UML and are used to
+model the interactions between the actors and the objects
+within a system.
+• A sequence diagram shows the sequence of interactions
+that take place during a particular use case or use case
+instance.
+• The objects and actors involved are listed along the top
+of the diagram, with a dotted line drawn vertically from
+these.
+• Interactions between objects are indicated by annotated
+arrows.
+14
+Jens Martensson
+Structural
+Models
+15
+Jens Martensson
+Structural Models
+• Structural models of software display the organization of a
+system in terms of the components that make up that system and
+their relationships.
+• Structural models may be static models, which show the structure
+of the system design, or dynamic models, which show the
+organization of the system when it is executing.
+• You create structural models of a system when you are
+discussing and designing the system architecture.
+16
+Motivation
+Jens Martensson
+Class Diagrams
+• Class diagrams are used when developing an objectoriented system model to show the classes in a system and
+the associations between these classes.
+• An object class can be thought of as a general definition of
+one kind of system object.
+• An association is a link between classes that indicates that
+there is some relationship between these classes.
+• When you are developing models during the early stages of
+the software engineering process, objects represent
+something in the real world, such as a patient, a prescription,
+doctor, etc.
+17
+Jens Martensson
+Class Diagrams
+• Always check scope for generalization.
+• If changes are proposed, then you do not have to look at all
+classes in the system to see if they are affected by the change.
+• Implemented using the class inheritance mechanisms.
+• The attributes and operations associated with higher-level
+classes are also associated with the lower-level classes.
+• The lower-level classes are subclasses inherit the attributes
+and operations from their superclasses.
+• These lower-level classes then add more specific attributes and
+operations.
+18
+Generalizations
+Jens Martensson
+Class Diagrams
+• An aggregation model shows how classes that are collections
+are composed of other classes.
+• Aggregation models are similar to the part-of relationship in
+semantic data models.
+• Objects in the real world are often made up of different
+parts.
+• The UML provides a special type of association between
+classes such that one object (the whole) is composed of other
+objects (the parts).
+• To define aggregation, a diamond shape is added to the link
+next to the class that represents the whole.
+19
+Associations - Aggregations - Compositions
+Jens Martensson
+Behavioral
+Models
+20
+Jens Martensson
+Behavioral Models
+• Behavioral models are models of the dynamic behavior
+of a system as it is executing.
+• They show what happens or what is supposed to happen
+when a system responds to a stimulus from its
+environment.
+• You can think of these stimuli as being of two types:
+• Data: Some data arrives that has to be processed by the
+system.
+• Events: Some event happens that triggers system processing.
+Events may have associated data, although this is not always
+the case.
+21
+Motivation
+Jens Martensson
+Data-driven Modeling
+• Many business systems are data-processing systems that
+are primarily driven by data.
+• They are controlled by the data input to the system, with
+relatively little external event processing.
+• Data-driven models show the sequence of actions involved
+in processing input data and generating an associated
+output.
+• They are particularly useful during the analysis of
+requirements as they can be used to show end-to-end
+processing in a system.
+22
+Jens Martensson
+Event-driven Modeling
+• Real-time systems are often event-driven,
+with minimal data processing.
+• Event-driven modeling shows how a system
+responds to external and internal events.
+• It is based on the assumption that a system
+has a finite number of states and that events
+(stimuli) may cause a transition from one
+state to another.
+23
+Jens Martensson
+State Machine Models
+• Model the behaviour of the system in
+response to external and internal events.
+• Often used for modelling real-time systems.
+• State machine models show system states as
+nodes and events as arcs between these
+nodes.
+• When an event occurs, the system moves from
+one state to another.
+• Statecharts are an integral part of UML
+models.
+24
+Jens Martensson
+Model – driven
+Engineering
+25
+Jens Martensson
+Model-Driven Engineering
+• Model-driven engineering (MDE) is an approach to
+software development.
+• Models rather than programs are the principal outputs of the
+development process.
+• The programs that execute on a hardware/software
+platform are then generated automatically from the
+models.
+• Raises the level of abstraction in software engineering.
+• Engineers no longer concerned with programming language
+details or the specifics of execution platforms.
+26
+Motivation
+Jens Martensson
+Model-Driven Architecture
+• Models at different levels of abstraction are created.
+• A computation independent model (CIM)
+• These model the important domain abstractions used in a
+system. CIMs are sometimes called domain models.
+• A platform independent model (PIM)
+• These model the operation of the system without reference
+to its implementation. The PIM is usually described using
+UML models.
+• Platform specific models (PSM)
+• These are transformations of the platform-independent
+model with a separate PSM for each application platform.
+27
+Motivation
+Jens Martensson 28
+Software
+Engineering
+Dr. Novarun Deb
+Jens Martensson
+Architectural
+Design
+2
+Jens Martensson
+Topics to be covered
+Chapter 6: Software Engineering (Ian Sommerville)
+• Architectural design decisions
+• Architectural views
+• Architectural patterns
+• Application architectures
+3
+Jens Martensson
+Architectural Design
+Motivation
+• Architectural design is concerned with understanding how a
+software system should be organized and designing the
+overall structure of that system.
+• Architectural design is the critical link between design and
+requirements engineering, as it identifies the main structural
+components in a system and the relationships between them.
+• The output of the architectural design process is an
+architectural model that describes how the system is
+organized as a set of communicating components.
+4
+Jens Martensson
+Architectural Abstraction
+Motivation
+• Architecture in the small is concerned with the architecture of
+individual programs.
+• Concerned with the way that an individual program is
+decomposed into components.
+• Architecture in the large is concerned with the architecture
+of complex enterprise systems.
+• Systems of systems, programs, and program components.
+• These enterprise systems are distributed over different
+computers, which may be owned and managed by different
+companies.
+5
+Jens Martensson
+Use of Architectural Models
+Motivation
+• As a way of facilitating discussion about the system design
+• A high-level architectural view of a system is useful for
+communication with system stakeholders and project planning
+because it is not cluttered with detail.
+• Stakeholders can relate to it and understand an abstract view
+of the system. They can then discuss the system as a whole
+without being confused by detail.
+• As a way of documenting an architecture that has been
+designed
+• The aim here is to produce a complete system model that shows
+the different components in a system, their interfaces and their
+connections.
+6
+Jens Martensson
+Architectural
+Design Decisions
+7
+Jens Martensson
+Architectural Design Decisions
+• Architectural design is a creative
+process.
+• The process differs depending on
+the type of system being
+developed.
+• A number of common decisions
+span all design processes.
+• These decisions affect the nonfunctional characteristics of the
+system.
+8
+Jens Martensson
+Architecture and System Characteristics
+• Performance
+• Localize critical operations and minimize communications. Use large
+rather than fine-grain components.
+• Security
+• Use a layered architecture with critical assets in the inner layers.
+• Safety
+• Localize safety-critical features in a small number of sub-systems.
+• Availability
+• Include redundant components and mechanisms for fault tolerance.
+• Maintainability
+• Use fine-grain, replaceable components.
+9
+Jens Martensson
+Architectural
+Views
+10
+Jens Martensson
+Architectural Views
+• What views or perspectives are useful when designing and
+documenting a system’s architecture?
+• What notations should be used for describing architectural models?
+• Each architectural model shows only one view or perspective of the
+system.
+• how a system is decomposed into modules
+• how the run-time processes interact
+• how system components are distributed across a network
+• For both design and documentation, you usually need to present
+multiple views of the software architecture.
+11
+Jens Martensson
+4+1 View Model of Software Architectures
+• A logical view, which shows the key abstractions
+in the system as objects or object classes.
+• A process view, which shows how, at run-time, the
+system is composed of interacting processes.
+• A development view, which shows how the
+software is decomposed for development.
+• A physical view, which shows the system
+hardware and how software components are
+distributed across the processors in the system.
+• Related using use cases or scenarios (+1)
+12
+Architectural description languages (ADLs) have been
+developed but are not widely used.
+For example: ArchiMate
+Jens Martensson
+Architectural
+Patterns
+13
+Jens Martensson
+Architectural Patterns
+• Patterns are a means of representing, sharing and
+reusing knowledge.
+• An architectural pattern is a stylized description of
+good design practice, which has been tried and tested
+in different environments.
+• Patterns should include information about when they are
+and when they are not useful.
+• Patterns may be represented using tabular and
+graphical descriptions.
+14
+Jens Martensson
+Architectural Patterns
+15
+The Model-View-Controller (MVC) pattern
+Name MVC (Model-View-Controller)
+Description Separates presentation and interaction from the system data.
+The system is structured into three logical components that interact with each other.
+1. The Model component manages the system data and associated operations on that
+data.
+2. The View component defines and manages how the data is presented to the user.
+3. The Controller component manages user interaction (e.g., key presses, mouse clicks, etc.)
+and passes these interactions to the View and the Model.
+When used Multiple ways to view and interact with data.
+Future requirements for interaction and presentation of data are unknown.
+Advantages Allows the data to change independently of its representation and vice versa.
+Supports presentation of the same data in different ways with changes made in one
+representation shown in all of them.
+Disadvantages Can involve additional code and code complexity when the data model and interactions are
+simple.
+Jens Martensson
+Architectural Patterns
+16
+The Model-View-Controller (MVC) pattern
+Jens Martensson
+Architectural Patterns
+17
+The Layered Architecture pattern
+Name Layered architecture
+Description Organizes the system into layers with related functionality associated with each layer.
+A layer provides services to the layer above it so the lowest-level layers represent core
+services that are likely to be used throughout the system.
+When used Building new facilities on top of existing systems;
+Development is spread across several teams with each team responsibility for a layer of
+functionality;
+Need for multi-level security.
+Advantages Allows replacement of entire layers so long as the interface is maintained.
+Redundant facilities (e.g., authentication) can be provided in each layer to increase the
+dependability of the system.
+Disadvantages In practice, providing a clean separation between layers is often difficult and a highlevel layer may have to interact directly with lower-level layers rather than through the
+layer immediately below it.
+Performance can be a problem because of multiple levels of interpretation of a service
+request as it is processed at each layer.
+Jens Martensson
+Architectural Patterns
+18
+The Layered Architecture pattern
+Jens Martensson
+Architectural Patterns
+19
+The Repository pattern
+Name Repository
+Description All data in a system is managed in a central repository that is accessible to all system
+components.
+Components do not interact directly, only through the repository.
+When used Large volumes of information are generated that has to be stored for a long time.
+Data-driven systems where the inclusion of data in the repository triggers an action or tool.
+Advantages Components can be independent—they do not need to know of the existence of other
+components.
+Changes made by one component can be propagated to all components.
+All data can be managed consistently (e.g., backups done at the same time) as it is all in one
+place.
+Disadvantages The repository is a single point of failure.
+May be inefficiencies in organizing all communication through the repository.
+Distributing the repository across several computers may be difficult.
+Jens Martensson
+Architectural Patterns
+20
+The Repository pattern
+Jens Martensson
+Architectural Patterns
+21
+The Client–Server pattern
+Name Client-server
+Description In a client–server architecture, the functionality of the system is organized into services,
+with each service delivered from a separate server.
+Clients are users of these services and access servers to make use of them.
+When used Data in a shared database has to be accessed from a range of locations.
+Because servers can be replicated, may also be used when the load on a system is
+variable.
+Advantages The principal advantage of this model is that servers can be distributed across a network.
+General functionality (e.g., a printing service) can be available to all clients and does not
+need to be implemented by all services.
+Disadvantages Each service is a single point of failure so susceptible to denial of service attacks or
+server failure.
+Performance may be unpredictable because it depends on the network as well as the
+system.
+May be management problems if servers are owned by different organizations.
+Jens Martensson
+Architectural Patterns
+22
+The Client–Server pattern
+Jens Martensson
+Architectural Patterns
+23
+The Pipe and Filter pattern
+Name Pipe and filter
+Description The processing of the data in a system is organized so that each processing component (filter) is
+discrete and carries out one type of data transformation.
+The data flows (as in a pipe) from one component to another for processing.
+When used Commonly used in data processing applications (both batch- and transaction-based) where
+inputs are processed in separate stages to generate related outputs.
+Advantages Easy to understand and supports transformation reuse.
+Workflow style matches the structure of many business processes.
+Evolution by adding transformations is straightforward.
+Can be implemented as either a sequential or concurrent system.
+Disadvantages The format for data transfer has to be agreed upon between communicating transformations.
+Each transformation must parse its input and un-parse its output to the agreed form.
+This increases system overhead and may mean that it is impossible to reuse functional
+transformations that use incompatible data structures.
+Jens Martensson
+Architectural Patterns
+24
+The Pipe and Filter pattern
+Jens Martensson
+Application
+Architectures
+25
+Jens Martensson
+Application Architectures
+• Application systems are designed to meet an
+organizational need.
+• As businesses have much in common, their application
+systems also tend to have a common architecture that
+reflects the application requirements.
+• A generic application architecture is an architecture for a
+type of software system that may be configured and
+adapted to create a system that meets specific
+requirements.
+26
+Jens Martensson
+Application Architectures
+• As a starting point for architectural design.
+• As a design checklist.
+• As a way of organizing the work of the development
+team.
+• As a means of assessing components for reuse.
+• As a vocabulary for talking about application types.
+27
+Uses
+Jens Martensson
+Application Systems Architecture
+Transaction Processing Systems Language Processing Systems
+28
+Jens Martensson 29
