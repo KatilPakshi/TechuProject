@@ -1,0 +1,28 @@
+static int majorityElement(int a[], int size)
+    {
+        int el=0;
+        int count=0;
+        int c=0;
+        for(int i=0 ; i<a.length ; i++){
+            if(count==0){
+                el=a[i];
+            }
+            if(a[i]==el){
+                count++;
+            }
+            else{
+                count--;
+            }
+        }
+      for(int j=0 ; j<a.length ; j++){
+          if(el==a[j]){
+              c++;
+          }
+      }
+      if(c>Math.floor(size/2)){
+          return el;
+    }
+    else {
+        return -1;
+    }
+    }
