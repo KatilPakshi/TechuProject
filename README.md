@@ -1,7 +1,3 @@
-
-![Logo](**Enter**.png)
-
-
 # TechuProject 🗿
 Do you have ideas to improve TechuProject? If yes, then don’t think twice and start working on it. You can contribute the way you like and get rewarded for your efforts. Here are some useful tips to help you get started in contributing to TechuProject.
 ## What to Contribute
