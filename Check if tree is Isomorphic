@@ -1,0 +1,12 @@
+boolean isIsomorphic(Node root1, Node root2)  
+    { 
+          if(root1 == null && root2 == null) return true;
+       if(root1 == null || root2 == null) return false;
+       if(root1.data == root2.data) {
+           boolean case1 = isIsomorphic(root1.left, root2.left);
+           boolean case2 = isIsomorphic(root1.right, root2.right);
+           boolean case3 = isIsomorphic(root1.left, root2.right);
+           boolean case4 = isIsomorphic(root1.right, root2.left);
+           return(case1 && case2) || (case3 && case4);
+       } else return false;
+    }
