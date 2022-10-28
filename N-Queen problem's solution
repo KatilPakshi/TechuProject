@@ -1,0 +1,57 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution{
+public:
+    bool have_hori(vector<int> &curr,int row,int col){
+        for(int i=0;i<curr.size();i++){
+            if(curr[i]==row){return true;}
+        }
+        return false;
+    }
+    bool have_diag(vector<int> &curr,int row,int col){
+        for(int i=0;i<curr.size();i++){ // i denotes column
+            if(abs(row-curr[i])==abs(col-i)){return true;}
+        }
+        return false;
+    }
+    void helper(int ind,int n,vector<int> &curr,vector<vector<int>> &ans){
+        if(ind==n){ans.push_back(curr); return;}
+        for(int i=0;i<n;i++){
+            if(!have_hori(curr,i+1,ind) && !have_diag(curr,i+1,ind)){
+                curr.push_back(i+1);
+                helper(ind+1,n,curr,ans);
+                curr.pop_back();
+            }
+        }
+    }
+    vector<vector<int>> nQueen(int n) {
+        vector<vector<int>> ans; vector<int> curr;
+        helper(0,n,curr,ans);
+        return ans;
+    }
+};
+
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        cin>>n;
+        
+        Solution ob;
+        vector<vector<int>> ans = ob.nQueen(n);
+        if(ans.size() == 0)
+            cout<<-1<<"\n";
+        else {
+            for(int i = 0;i < ans.size();i++){
+                cout<<"[";
+                for(int u: ans[i])
+                    cout<<u<<" ";
+                cout<<"] ";
+            }
+            cout<<endl;
+        }
+    }
+    return 0;
+}
