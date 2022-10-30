@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+struct Node {
+	int data;
+	struct Node* next;
+	Node(){
+        next = NULL;
+    }
+	Node(int x){
+		data = x;
+		next = NULL;
+	}
+}; 
+Node* merge(Node* head1, Node* head2){
+ 
+    Node* ptr1 = head1;
+    int l1=0,l2=0;
+    while(ptr1->next!=NULL)
+    {
+        l1++;
+        ptr1=ptr1->next;
+    }
+    Node* ptr2 = head2;
+    while(ptr2->next!=NULL)
+    {
+        l2++;
+        ptr2=ptr2->next;
+    }
+	Node *i, *j;
+	int temp;
+	for (i = head1; i != NULL; i = i->next)
+	{
+		for (j = head1; j->next != NULL; j =j->next)
+		{
+			if (j->data >= j->next->data)
+			{
+				temp = j->data;
+				j->data = j->next->data;
+				j->next->data = temp;
+			}
+		}
+	}
+
+ }
